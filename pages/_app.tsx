@@ -8,7 +8,7 @@ import "../global.css";
 const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
-      <DisclaimerBar link="https://adventofadvent.com/02-copy-and-componentization" />
+      <DisclaimerBar link="https://adventofadvent.com/copy-and-componentization" />
       <MainContainer>
         <Component {...pageProps} />
       </MainContainer>
